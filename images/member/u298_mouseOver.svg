@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="75px" height="72px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter x="82px" y="952px" width="75px" height="72px" filterUnits="userSpaceOnUse" id="filter670">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.8509803921568627  0 0 0 0 0  0 0 0 0 0.10588235294117647  0 0 0 0.34901960784313724 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget671">
+      <image preserveAspectRatio="none" style="overflow:visible" width="65" height="62" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE8AAABLCAYAAAAxpdqQAAAACXBIWXMAAAsSAAALEgHS3X78AAADGElEQVR4nO1c0XEaMRB9ZjzjT+gg5M9/UAKpIO7AUEFwBUkqiFNB7ArsdBA6gApMKgiuAM/aqwz2GGnvpBXcSu/LjMUJHitp39u9O9lutwAwADAHMEH3sQFwA+Be+5sQeUTcHwAjA8Tt4juAb5oTEHn0K11qTnJAfASw1pq+Z2Sp7sOF5sWJvA+aExwYA83pe11gIAKqh4Zl8hYAlpoTWCXvVnu/I5wKxnzS/hCJseRcTx2UqmwDk5x0ibmcsH5gqKKSFwGL5KnmdruwRt6Y5ZiqpnWwdGCM2eDo82tKV6aaE1qJvLfEgc2OG81JLZA3YBnWf+d/jkCVfdACedOAuXHJUZmcQCt7HhH4KzBmxfZbMvVhZc+jpTkLjBmljkBLqYqUwDUfMNGwqG0nngPE4ZHHRVlWVo2B91KXt4gm0Kq2XTIxj54xfSa4te9n2RhwBK48Y4jAu7ZKpAQ/T1qXnjVVJCVYUhtBBILzxHmTC5fi5zkCF4FxP5pEX0lmqCPwNjBObCiU6CRPUxFYcgFI0qPj1cMl1zAoAq8CY7x6uJYeIxyZWj1r5si8MhRyRt7kyNvZzlmqnXnGvNLDuci7BvAlwXWOAf8JzEHeEMBDd7gRgQi8yLHnDTPMkRtkKNzniDw65v8dJwet8bx0c0TeRnCadQlZ9zyHcY6GwwjQ5/scePuKv8Nzh31Nkl/QKlGuSfJLU1BVGC1A6uJr4G2/95kDJZMncVVcY3h1VRiDBsR5C0OSbnhLkBaDfkrqGSWRl7yKVsqyVSk/lkCe61NOXre1vmxVe1YsR556s49V8qa1S6odnE71EbdK0Z9nbc/L2ptsKfJaC/y2sBJ5Erm18OnUNrAQeXOhTk16GwGMmKEh9aB2D5qFyPM1L6revGfJhh9y6uFSlMZyqyksnbbrnQ54deJQC0BxKL2GEYVKXgQqeRGQKIyuPSJuo/0MKQfJgdFFJJdiJZEHTpqT3Fe7D5b3vFGOJzdahnrk/TVMnuqe18shYw4I9cdeXgtup+wiZpqP+QWftu7v+ZF3bkpBhNFqIo9PDwCeAFRi8QpNOVLPAAAAAElFTkSuQmCC" x="82px" y="952px" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -82 -952 )">
+    <use xlink:href="#widget671" filter="url(#filter670)" />
+    <use xlink:href="#widget671" />
+  </g>
+</svg>
